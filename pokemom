@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+      <div id="container"></div>
+      <script>
+          function favPokemon() {
+              const Hydreigon = fetch(`https://pokeapi.co/api/v2/pokemon/635`)
+              .then((data) => {
+                  return data.json();
+              })
+              .then((json) => {
+                  console.log(json.)
+              })
+              const Mamoswine = fetch(`https://pokeapi.co/api/v2/pokemon/473`)
+              .then((data) => {
+                  return data.json();
+              })
+              .then((json) => {
+                  console.log(json)
+              })
+              const Lucario = fetch(`https://pokeapi.co/api/v2/pokemon/488`)
+              .then((data) => {
+                  return data.json();
+              })
+              .then((json) => {
+                  console.log(json)
+              })
+              promise.all()
+          }
+          favPokemon()
+      </script>
+  </body>
+</html>
